@@ -1,7 +1,11 @@
+import Aside from "./components/Aside";
+
 function App() {
   return (
-    <div className="App bg-black h-screen">
-      <div className="text-gray-800 bg-orange-500">teste</div>
+    <div className="App">
+      <div className="text-black">
+        <Aside />
+      </div>
     </div>
   );
 }
