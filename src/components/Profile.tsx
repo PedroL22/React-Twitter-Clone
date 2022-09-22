@@ -27,7 +27,7 @@ export default function Profile() {
       </p>
       <div className="flex">
         <BsGeoAlt className="ml-5 mt-4 text-gray-500" />{" "}
-        <p className="text-gray-500 mt-[14px] ml-[3px] text-sm">Country</p>
+        <p className="text-gray-500 mt-[14px] ml-[3px] text-sm">Location</p>
         <BsLink45Deg className="ml-3 mt-4 text-gray-500" size={22} />
         <p className="text-gray-500 mt-[14px] ml-[3px] text-sm cursor-pointer hover:underline text-twitter">
           https://userwebsite.com
