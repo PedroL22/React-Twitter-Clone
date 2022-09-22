@@ -1,2 +1,2 @@
 # React-Twitter-Clone
-https://react-js-twitter-clone.netlify.app/
+https://react-twitter-clone.vercel.app/
