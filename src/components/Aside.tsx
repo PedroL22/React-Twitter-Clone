@@ -16,7 +16,7 @@ export default function Aside() {
     <aside className="fixed h-full">
       <ul className="text-xl w-min ">
         <li className="flex w-fit py-4 pl-5 hover:bg-blue-100 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <GrTwitter className="mr-5 text-[#1d9bf0]" size={26} />
+          <GrTwitter className="mr-5 text-twitter" size={26} />
         </li>
         <li className="xl:py-3 flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <BsHouse className="mr-5" size={26} />
@@ -50,7 +50,7 @@ export default function Aside() {
           <CgMoreO className="mr-5" size={25} />
           <p className="xl:hidden flex">More</p>
         </li>
-        <li className="xl:p-3 ml-3 font-medium flex w-fit py-3 px-20 ml-2 bg-[#1d9bf0] mx-auto rounded-full text-white hover:bg-[#1a8cd8] cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:p-3 ml-3 font-medium flex w-fit py-3 px-20 ml-2 bg-twitter mx-auto rounded-full text-white hover:bg-[#1a8cd8] cursor-pointer transition-all duration-250 ease-in">
           <p className="xl:hidden ">Tweet</p>
           <BsPlusLg className="xl-min:hidden" />
         </li>

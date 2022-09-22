@@ -1,4 +1,4 @@
-import { BsArrowLeftShort } from "react-icons/bs";
+import { BsArrowLeftShort, BsGeoAlt, BsLink45Deg } from "react-icons/bs";
 
 export default function Profile() {
   return (
@@ -17,6 +17,20 @@ export default function Profile() {
         <div className="rounded-full  h-fit p-16 border-4 border-white bg-gray-200 mt-[120px] ml-5"></div>
         <p className="bg-white h-fit rounded-full px-4 py-1 border border-gray-300 mt-52 mr-5 font-medium">
           Edit profile
+        </p>
+      </div>
+      <h1 className="font-bold text-xl pt-20 pl-5">User Name</h1>
+      <p className="text-gray-500 pl-5 -mt-1">@username</p>
+      <p className="pl-5 pt-3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet
+        neque in est imperdiet, et tempor purus rutrum.
+      </p>
+      <div className="flex">
+        <BsGeoAlt className="ml-5 mt-4 text-gray-500" />{" "}
+        <p className="text-gray-500 mt-[14px] ml-[3px] text-sm">Country</p>
+        <BsLink45Deg className="ml-3 mt-4 text-gray-500" size={22} />
+        <p className="text-gray-500 mt-[14px] ml-[3px] text-sm cursor-pointer hover:underline text-twitter">
+          https://userwebsite.com
         </p>
       </div>
     </div>
