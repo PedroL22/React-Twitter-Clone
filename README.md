@@ -1,5 +1,5 @@
 # React-Twitter-Clone
-A Twitter clone I made from scratch with React JS.
+A Twitter clone I made from scratch with React JS and Tailwind CSS.
 <br />
 <br />
 https://react-twitter-clone.vercel.app/
