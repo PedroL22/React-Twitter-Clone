@@ -4,7 +4,7 @@ import Profile from "./components/Profile";
 function App() {
   return (
     <div className="App">
-      <div className="max-w-[1280px] mx-auto">
+      <div className="max-w-[1280px] mx-auto overflow-hidden">
         <Aside />
         <Profile />
       </div>

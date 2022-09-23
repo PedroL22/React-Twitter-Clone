@@ -5,10 +5,11 @@ import {
   BsCalendar3,
 } from "react-icons/bs";
 import { TbBallon } from "react-icons/tb";
+import Posts from "./Posts";
 
 export default function Profile() {
   return (
-    <div className="xl:ml-16 ml-64 mr-[28rem] border border-gray-200 h-screen">
+    <div className="xl:ml-16 ml-64 mr-[28rem] border border-gray-100 h-screen">
       <div className="flex p-1">
         <BsArrowLeftShort
           className="my-2 mx-3 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in"
@@ -77,6 +78,7 @@ export default function Profile() {
           <p className="font-medium text-gray-500">Likes</p>
         </div>
       </div>
+      <Posts />
     </div>
   );
 }
