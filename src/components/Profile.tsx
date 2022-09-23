@@ -8,7 +8,7 @@ import { TbBallon } from "react-icons/tb";
 
 export default function Profile() {
   return (
-    <div className="xl:ml-16 ml-64 mr-[30rem] border border-gray-200 h-screen">
+    <div className="xl:ml-16 ml-64 mr-[28rem] border border-gray-200 h-screen">
       <div className="flex p-1">
         <BsArrowLeftShort
           className="my-2 mx-3 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in"
@@ -27,7 +27,7 @@ export default function Profile() {
       </div>
       <h1 className="font-bold text-xl pt-20 pl-5">User Name</h1>
       <p className="text-gray-500 pl-5 -mt-1">@username</p>
-      <p className="pl-5 pt-3">
+      <p className="pl-5 pt-3 pr-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet
         neque in est imperdiet, et tempor purus rutrum.
       </p>
@@ -62,6 +62,20 @@ export default function Profile() {
             Followers
           </span>
         </p>
+      </div>
+      <div className="flex justify-around mt-4">
+        <div className="hover:bg-gray-200 px-10 py-4 border-2 border-b-twitter border-t-0 border-x-0 cursor-pointer transition-all duration-250 ease-in">
+          <p className="font-medium ">Tweets</p>
+        </div>
+        <div className="hover:bg-gray-200 px-10 py-4 cursor-pointer transition-all duration-250 ease-in">
+          <p className="font-medium text-gray-500">Tweets & replies</p>
+        </div>
+        <div className="hover:bg-gray-200 px-10 py-4 cursor-pointer transition-all duration-250 ease-in">
+          <p className="font-medium text-gray-500">Media</p>
+        </div>
+        <div className="hover:bg-gray-200 px-10 py-4 cursor-pointer transition-all duration-250 ease-in">
+          <p className="font-medium text-gray-500">Likes</p>
+        </div>
       </div>
     </div>
   );
