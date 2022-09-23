@@ -22,6 +22,40 @@ export default function RightAside() {
         <div className="bg-gray-200 h-28">ㅤ</div>
         <div className="bg-gray-200 h-28 rounded-br-2xl">ㅤ</div>
       </div>
+      <div className="-ml-4 my-5 rounded-2xl bg-[#f7f9f9]">
+        <p className="font-bold text-xl pl-4 pt-4">You might like</p>
+
+        <div className="flex cursor-pointer hover:bg-gray-100 transition-all duration-250 ease-in">
+          <div className="rounded-full bg-gray-200 p-7 h-fit ml-4 my-3 hover:bg-gray-300"></div>
+          <div>
+            <p className="font-medium ml-3 mt-4 hover:underline">User Name</p>
+            <p className="text-gray-500 -mt-1 ml-3">@username</p>
+          </div>
+          <p className="bg-black text-white font-medium h-fit ml-5 mt-6 py-1 px-5 rounded-full hover:text-gray-200">
+            Follow
+          </p>
+        </div>
+        <div className="flex cursor-pointer hover:bg-gray-100 transition-all duration-250 ease-in">
+          <div className="rounded-full bg-gray-200 p-7 h-fit ml-4 my-3 hover:bg-gray-300"></div>
+          <div>
+            <p className="font-medium ml-3 mt-4 hover:underline">User Name</p>
+            <p className="text-gray-500 -mt-1 ml-3">@username</p>
+          </div>
+          <p className="bg-black text-white font-medium h-fit ml-5 mt-6 py-1 px-5 rounded-full hover:text-gray-200">
+            Follow
+          </p>
+        </div>
+        <div className="flex cursor-pointer hover:bg-gray-100 transition-all duration-250 ease-in">
+          <div className="rounded-full bg-gray-200 p-7 h-fit ml-4 my-3 hover:bg-gray-300"></div>
+          <div>
+            <p className="font-medium ml-3 mt-4 hover:underline">User Name</p>
+            <p className="text-gray-500 -mt-1 ml-3">@username</p>
+          </div>
+          <p className="bg-black text-white font-medium h-fit ml-5 mt-6 py-1 px-5 rounded-full hover:text-gray-200">
+            Follow
+          </p>
+        </div>
+      </div>
     </aside>
   );
 }
