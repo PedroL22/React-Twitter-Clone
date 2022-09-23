@@ -1,5 +1,8 @@
-import { BsPinFill } from "react-icons/bs";
+import { BsPinFill, BsHeart, BsBoxArrowUp } from "react-icons/bs";
 import { FiMoreHorizontal } from "react-icons/fi";
+import { FaRegComment } from "react-icons/fa";
+import { TbArrowAutofitRight } from "react-icons/tb";
+import { GoGraph } from "react-icons/go";
 
 export default function Posts() {
   return (
@@ -24,6 +27,13 @@ export default function Posts() {
         venenatis laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Integer auctor risus sodales velit vulputate volutpat.
       </p>
+      <div className="flex justify-around w-auto ml-10 mt-4 text-gray-500">
+        <FaRegComment className="hover:text-twitter transition-all duration-250 ease-in" />
+        <TbArrowAutofitRight className="hover:text-green-400 transition-all duration-250 ease-in" />
+        <BsHeart className="hover:text-red-400 transition-all duration-250 ease-in" />
+        <BsBoxArrowUp className="hover:text-twitter transition-all duration-250 ease-in" />
+        <GoGraph className="hover:text-twitter transition-all duration-250 ease-in" />
+      </div>
     </div>
   );
 }

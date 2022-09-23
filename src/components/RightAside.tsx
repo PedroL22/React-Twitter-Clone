@@ -2,7 +2,7 @@ import { IoIosSearch } from "react-icons/io";
 
 export default function RightAside() {
   return (
-    <aside className="block -mt-[100vh] float-right mr-16">
+    <aside className="lg:hidden block -mt-[100vh] float-right mr-16">
       <div className="flex">
         <IoIosSearch
           className="-mr-9 mt-[15px] z-10 text-gray-500 focus:text-twitter"

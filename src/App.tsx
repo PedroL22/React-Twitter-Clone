@@ -5,7 +5,7 @@ import RightAside from "./components/RightAside";
 function App() {
   return (
     <div className="App">
-      <div className="max-w-[1280px] mx-auto overflow-hidden">
+      <div className="max-w-[1280px] mx-auto">
         <Aside />
         <Profile />
         <RightAside />

@@ -9,7 +9,7 @@ import Posts from "./Posts";
 
 export default function Profile() {
   return (
-    <div className="xl:ml-16 ml-64 mr-[28rem] border border-gray-100 h-screen">
+    <div className="xl:ml-16 lg:mr-10 ml-64 mr-[28rem] border border-gray-100 h-screen">
       <div className="flex p-1">
         <BsArrowLeftShort
           className="my-2 mx-3 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in"
