@@ -55,6 +55,10 @@ export default function RightAside() {
             Follow
           </p>
         </div>
+
+        <p className="text-twitter p-4 cursor-pointer hover:underline">
+          Show more
+        </p>
       </div>
     </aside>
   );
