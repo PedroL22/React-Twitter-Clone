@@ -15,42 +15,42 @@ export default function Aside() {
   return (
     <aside className="fixed h-full">
       <ul className="text-xl w-min ">
-        <li className="flex w-fit py-4 pl-5 hover:bg-blue-100 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="flex w-fit py-3 my-2 pl-5 hover:bg-blue-100 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <GrTwitter className="mr-5 text-twitter" size={26} />
         </li>
-        <li className="xl:py-3 flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <BsHouse className="mr-5" size={26} />
           <p className="xl:hidden flex">Home</p>
         </li>
-        <li className="xl:py-3 flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <HiOutlineHashtag className="mr-5" size={26} />
           <p className="xl:hidden flex">Explore</p>
         </li>
-        <li className="xl:py-3 flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <IoMdNotificationsOutline className="mr-5" size={29} />
           <p className="xl:hidden flex">Notifications</p>
         </li>
-        <li className="xl:py-3 flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <FiMail className="mr-5" size={26} />{" "}
           <p className="xl:hidden flex">Messages</p>
         </li>
-        <li className="xl:py-3 xlh:hidden flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xlh:hidden xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <BsBookmark className="mr-5" size={23} />
           <p className="xl:hidden flex">Bookmarks</p>
         </li>
-        <li className="xl:py-3 xlh:hidden flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xlh:hidden xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <BsCardList className="mr-5" size={26} />
           <p className="xl:hidden flex">Lists</p>
         </li>
-        <li className="xl:py-3 font-bold flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="font-bold xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <BsFillPersonFill className="mr-5" size={27} />
           <p className="xl:hidden flex">Profile</p>
         </li>
-        <li className="xl:py-3 flex w-fit py-4 pl-5 pr-8 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
           <CgMoreO className="mr-5" size={25} />
           <p className="xl:hidden flex">More</p>
         </li>
-        <li className="xl:p-3 ml-3 font-medium flex w-fit py-3 px-20 ml-2 bg-twitter mx-auto rounded-full text-white hover:bg-[#1a8cd8] cursor-pointer transition-all duration-250 ease-in">
+        <li className="xl:p-3 xl:ml-3 font-medium flex w-fit py-3 px-20 bg-twitter mx-auto rounded-full text-white hover:bg-[#1a8cd8] cursor-pointer transition-all duration-250 ease-in">
           <p className="xl:hidden ">Tweet</p>
           <BsPlusLg className="xl-min:hidden" />
         </li>
