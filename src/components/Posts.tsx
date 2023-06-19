@@ -1,39 +1,42 @@
-import { BsPinFill, BsHeart, BsBoxArrowUp } from "react-icons/bs";
-import { FiMoreHorizontal } from "react-icons/fi";
-import { FaRegComment } from "react-icons/fa";
-import { TbArrowAutofitRight } from "react-icons/tb";
-import { GoGraph } from "react-icons/go";
+import { BsPinFill, BsHeart, BsBoxArrowUp } from 'react-icons/bs'
+import { FiMoreHorizontal } from 'react-icons/fi'
+import { FaRegComment } from 'react-icons/fa'
+import { TbArrowAutofitRight } from 'react-icons/tb'
+import { GoGraph } from 'react-icons/go'
 
-export default function Posts() {
+export const Posts = () => {
   return (
-    <div className="cursor-pointer -mt-4 pb-4 hover:bg-gray-100 transition-all duration-250 ease-in">
-      <div className="flex h-full ml-14 mt-4">
-        <BsPinFill className="text-gray-500 mt-3" size={15} />
-        <p className="ml-1 pt-3 font-medium text-sm">Pinned Tweet</p>
+    <div className='duration-250 -mt-4 cursor-pointer pb-4 transition-all ease-in hover:bg-gray-100'>
+      <div className='ml-14 mt-4 flex h-full'>
+        <BsPinFill
+          className='mt-3 text-gray-500'
+          size={15}
+        />
+        <p className='ml-1 pt-3 text-sm font-medium'>Pinned Tweet</p>
       </div>
-      <div className="flex justify-between">
-        <div className="flex">
-          <div className="rounded-full p-6 ml-5 mt-1 bg-gray-200 hover:bg-gray-300 transition-all duration-250 ease-in"></div>
-          <p className="pl-2 font-medium hover:underline">User Name</p>
-          <p className="pl-1 text-gray-500">@username</p>
+      <div className='flex justify-between'>
+        <div className='flex'>
+          <div className='duration-250 ml-5 mt-1 rounded-full bg-gray-200 p-6 transition-all ease-in hover:bg-gray-300'></div>
+          <p className='pl-2 font-medium hover:underline'>User Name</p>
+          <p className='pl-1 text-gray-500'>@username</p>
         </div>
         <FiMoreHorizontal
-          className="flex p-1 mr-3 rounded-full hover:text-twitter hover:bg-blue-100"
+          className='mr-3 flex rounded-full p-1 hover:bg-blue-100 hover:text-twitter'
           size={25}
         />
       </div>
-      <p className="ml-[76px] -mt-7 mr-4">
+      <p className='-mt-7 ml-[76px] mr-4'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet
         venenatis laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Integer auctor risus sodales velit vulputate volutpat.
       </p>
-      <div className="flex justify-around w-auto ml-10 mt-4 text-gray-500">
-        <FaRegComment className="hover:text-twitter transition-all duration-250 ease-in" />
-        <TbArrowAutofitRight className="hover:text-green-400 transition-all duration-250 ease-in" />
-        <BsHeart className="hover:text-red-400 transition-all duration-250 ease-in" />
-        <BsBoxArrowUp className="hover:text-twitter transition-all duration-250 ease-in" />
-        <GoGraph className="hover:text-twitter transition-all duration-250 ease-in" />
+      <div className='ml-10 mt-4 flex w-auto justify-around text-gray-500'>
+        <FaRegComment className='duration-250 transition-all ease-in hover:text-twitter' />
+        <TbArrowAutofitRight className='duration-250 transition-all ease-in hover:text-green-400' />
+        <BsHeart className='duration-250 transition-all ease-in hover:text-red-400' />
+        <BsBoxArrowUp className='duration-250 transition-all ease-in hover:text-twitter' />
+        <GoGraph className='duration-250 transition-all ease-in hover:text-twitter' />
       </div>
     </div>
-  );
+  )
 }

@@ -4,69 +4,99 @@ import {
   BsCardList,
   BsFillPersonFill,
   BsPlusLg,
-} from "react-icons/bs";
-import { GrTwitter } from "react-icons/gr";
-import { HiOutlineHashtag } from "react-icons/hi";
-import { IoMdNotificationsOutline } from "react-icons/io";
-import { FiMail, FiMoreHorizontal } from "react-icons/fi";
-import { CgMoreO } from "react-icons/cg";
+} from 'react-icons/bs'
+import { GrTwitter } from 'react-icons/gr'
+import { HiOutlineHashtag } from 'react-icons/hi'
+import { IoMdNotificationsOutline } from 'react-icons/io'
+import { FiMail, FiMoreHorizontal } from 'react-icons/fi'
+import { CgMoreO } from 'react-icons/cg'
 
-export default function Aside() {
+export const Aside = () => {
   return (
-    <aside className="fixed h-full">
-      <ul className="text-xl w-min ">
-        <li className="flex w-fit py-3 my-2 pl-5 hover:bg-blue-100 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <GrTwitter className="mr-5 text-twitter" size={26} />
+    <aside className='fixed h-full'>
+      <ul className='w-min text-xl '>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 transition-all ease-in hover:rounded-full hover:bg-blue-100'>
+          <GrTwitter
+            className='mr-5 text-twitter'
+            size={26}
+          />
         </li>
-        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <BsHouse className="mr-5" size={26} />
-          <p className="xl:hidden flex">Home</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0'>
+          <BsHouse
+            className='mr-5'
+            size={26}
+          />
+          <p className='flex xl:hidden'>Home</p>
         </li>
-        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <HiOutlineHashtag className="mr-5" size={26} />
-          <p className="xl:hidden flex">Explore</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0'>
+          <HiOutlineHashtag
+            className='mr-5'
+            size={26}
+          />
+          <p className='flex xl:hidden'>Explore</p>
         </li>
-        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <IoMdNotificationsOutline className="mr-5" size={29} />
-          <p className="xl:hidden flex">Notifications</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0'>
+          <IoMdNotificationsOutline
+            className='mr-5'
+            size={29}
+          />
+          <p className='flex xl:hidden'>Notifications</p>
         </li>
-        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <FiMail className="mr-5" size={26} />{" "}
-          <p className="xl:hidden flex">Messages</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0'>
+          <FiMail
+            className='mr-5'
+            size={26}
+          />{' '}
+          <p className='flex xl:hidden'>Messages</p>
         </li>
-        <li className="xlh:hidden xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <BsBookmark className="mr-5" size={23} />
-          <p className="xl:hidden flex">Bookmarks</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0 xlh:hidden'>
+          <BsBookmark
+            className='mr-5'
+            size={23}
+          />
+          <p className='flex xl:hidden'>Bookmarks</p>
         </li>
-        <li className="xlh:hidden xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <BsCardList className="mr-5" size={26} />
-          <p className="xl:hidden flex">Lists</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0 xlh:hidden'>
+          <BsCardList
+            className='mr-5'
+            size={26}
+          />
+          <p className='flex xl:hidden'>Lists</p>
         </li>
-        <li className="font-bold xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <BsFillPersonFill className="mr-5" size={27} />
-          <p className="xl:hidden flex">Profile</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 font-bold transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0'>
+          <BsFillPersonFill
+            className='mr-5'
+            size={27}
+          />
+          <p className='flex xl:hidden'>Profile</p>
         </li>
-        <li className="xl:my-3 flex w-fit py-3 my-2 pl-5 pr-8 xl:pl-1 xl:ml-4 xl:pr-0 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-          <CgMoreO className="mr-5" size={25} />
-          <p className="xl:hidden flex">More</p>
+        <li className='duration-250 my-2 flex w-fit cursor-pointer py-3 pl-5 pr-8 transition-all ease-in hover:rounded-full hover:bg-gray-200 xl:my-3 xl:ml-4 xl:pl-1 xl:pr-0'>
+          <CgMoreO
+            className='mr-5'
+            size={25}
+          />
+          <p className='flex xl:hidden'>More</p>
         </li>
-        <li className="xl:p-3 xl:ml-3 font-medium flex w-fit py-3 px-20 bg-twitter mx-auto rounded-full text-white hover:bg-[#1a8cd8] cursor-pointer transition-all duration-250 ease-in">
-          <p className="xl:hidden ">Tweet</p>
-          <BsPlusLg className="xl-min:hidden" />
+        <li className='duration-250 mx-auto flex w-fit cursor-pointer rounded-full bg-twitter px-20 py-3 font-medium text-white transition-all ease-in hover:bg-[#1a8cd8] xl:ml-3 xl:p-3'>
+          <p className='xl:hidden '>Tweet</p>
+          <BsPlusLg className='xl-min:hidden' />
         </li>
       </ul>
-      <div className="flex absolute bottom-0 mb-2 py-3 px-3 hover:bg-gray-200 hover:rounded-full cursor-pointer transition-all duration-250 ease-in">
-        <div className="flex justify-between">
-          <div className="bg-gray-300 h-11 w-11 rounded-full"></div>
-          <div className="block xl:hidden">
-            <p className="pl-3 -mb-1 font-medium">User Name</p>
-            <p className="pl-3 font-normal text-gray-500">@username</p>
+      <div className='duration-250 absolute bottom-0 mb-2 flex cursor-pointer px-3 py-3 transition-all ease-in hover:rounded-full hover:bg-gray-200'>
+        <div className='flex justify-between'>
+          <div className='h-11 w-11 rounded-full bg-gray-300'></div>
+          <div className='block xl:hidden'>
+            <p className='-mb-1 pl-3 font-medium'>User Name</p>
+            <p className='pl-3 font-normal text-gray-500'>@username</p>
           </div>
         </div>
-        <div className="xl:hidden">
-          <FiMoreHorizontal className="ml-16 mt-3" size={20} />
+        <div className='xl:hidden'>
+          <FiMoreHorizontal
+            className='ml-16 mt-3'
+            size={20}
+          />
         </div>
       </div>
     </aside>
-  );
+  )
 }

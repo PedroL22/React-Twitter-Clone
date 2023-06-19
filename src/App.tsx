@@ -1,17 +1,15 @@
-import Aside from "./components/Aside";
-import Profile from "./components/Profile";
-import RightAside from "./components/RightAside";
+import { Aside } from './components/Aside'
+import { Profile } from './components/Profile'
+import { RightAside } from './components/RightAside'
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <div className="max-w-[1280px] mx-auto">
+    <div>
+      <div className='mx-auto max-w-[1280px]'>
         <Aside />
         <Profile />
         <RightAside />
       </div>
     </div>
-  );
+  )
 }
-
-export default App;
